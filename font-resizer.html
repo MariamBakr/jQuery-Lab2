@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Font Resizer</title>
+	<style type="text/css">
+		.box{
+			width:100px;
+			height:100px;
+			background-color:black;
+			position: absolute;
+		}
+		button{
+			padding:10px 20px 10px 20px;
+					}
+		.error{
+			color: red;
+		}
+	</style>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+ <!-- <script type="text/javascript" src="js/jquery-1.11.2.js"></script> -->
+<script type="text/javascript" src="js/font-resizer.js"></script>
+</head>
+<body>
+	<p class="content">Hello, Open Sourcians</p>
+	<button id="decrease"> - </button>
+	<button id="increase"> + </button>
+	<br>
+	<p class="error"></p>
+
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script>
+
+		
+		/////jQuery plugin to make gradient on shapes////
+		// $.fn.shapeGradient=function(){
+		// 	$(this).css('backgroundImage','linear-gradient(rgb(244, 155, 170),purple,rgb(255, 215, 69),bisque,rgb(96, 19, 96),rgb(244, 155, 170))')
+		// 	return $(this)
+		// }
+		// $('.grid').shapeGradient()
+
+
+        ////Font resizer////
+
+		// $("#increase").on('click',function(){
+		// current=$(".content").css("fontSize")
+		// current=parseInt(current)
+		// if (current<=50){
+        //     $(".content").css("fontSize", current+=3)
+		//     $(".error").hide()
+	    // }else{
+		// 	$(".content").css("fontSize",current)
+		// 	$(".error").show().text("you reached max size")
+		// }})
+
+		// $("#decrease").on('click',function(){
+		// current=$(".content").css("fontSize")
+		// current=parseInt(current)
+		// if (current>=15){
+		// 	$(".error").hide()
+        //     $(".content").css("fontSize", current-=3)
+	    // }else{
+		// 	$(".content").css("fontSize",current)
+		// 	$(".error").show().text("you reached min size")
+		// }})
+
+
+	</script>
+</body>
+</html>
